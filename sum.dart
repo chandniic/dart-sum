@@ -1,10 +1,10 @@
 import 'dart:io';
 void main()
 {
-    print("enter first number:");
-    int number1 = int.parse(stdin.readLineSync().toString());
-    print("enter second number:");
-    int number2 = int.parse(stdin.readLineSync().toString());
-    int sum = number1 + number2;
-    print("The sum of ${number1} and ${number2} is ${sum}");
+  stdout.write("Enter number 1: ");
+  int num1 = int.parse(stdin.readLineSync());
+  stdout.write("Enter number 2: ");
+  int num2 = int.parse(stdin.readLineSync());
+  int sum = num1 + num2;
+  print('The Sum of $num1 and $num2 is : $sum');
 }
